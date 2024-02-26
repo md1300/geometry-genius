@@ -96,32 +96,32 @@
                       <h2 class="card-title">pentagon</h2>
                       <p>Area(A)= 0.5 x p x b</p>
                       <div>
-                        <input id="rhombus-width" class="w-20" type="text" placeholder="d1"><span class="mr-2 ml-2">cm</span>
-                        <input id="rhombus-height" class="w-20" type="text" placeholder="d2"><span class="ml-2">cm</span>
+                        <input id="pentagon-base" class="w-20" type="text" placeholder="d1"><span class="mr-2 ml-2">cm</span>
+                        <input id="pentagon-height" class="w-20" type="text" placeholder="d2"><span class="ml-2">cm</span>
                       </div>
                       <div>
-                        <p>total area : <span id="rhombus-area-span"></span><span>cm<sup>2</sup></span></p>
+                        <p>total area : <span id="pentagon-area-span"></span><span>cm<sup>2</sup></span></p>
                       </div>
                       <div class="card-actions ">
-                        <button onclick="calculateRhombusArea()" class="btn btn-primary w-full">calculate</button>
+                        <button onclick="calculatePentagonArea()" class="btn btn-primary w-full">calculate</button>
                       </div>
                     </div>
                   </div>
                   <!-- ellipse card 6 -->
                 <div class="card  bg-base-100 shadow-xl">
-                    <figure><img src="images/rhombus.png" alt="Shoes" /></figure>
+                    <figure><img src="images/ellipse.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title">rhombus</h2>
-                      <p>Area(A)= 0.5 x d<Sub>1</Sub> x d<sub>2</sub></p>
+                      <h2 class="card-title">ellipse</h2>
+                      <p>Area(A)= $ab</p>
                       <div>
-                        <input id="rhombus-width" class="w-20" type="text" placeholder="d1"><span class="mr-2 ml-2">cm</span>
-                        <input id="rhombus-height" class="w-20" type="text" placeholder="d2"><span class="ml-2">cm</span>
+                        <input id="ellipse-width" class="w-20" type="text" placeholder="a"><span class="mr-2 ml-2">cm</span>
+                        <input id="ellipse-height" class="w-20" type="text" placeholder="b"><span class="ml-2">cm</span>
                       </div>
                       <div>
-                        <p>total area : <span id="rhombus-area-span"></span><span>cm<sup>2</sup></span></p>
+                        <p>total area : <span id="ellipse-area-span"></span><span>cm<sup>2</sup></span></p>
                       </div>
                       <div class="card-actions ">
-                        <button onclick="calculateRhombusArea()" class="btn btn-primary w-full">calculate</button>
+                        <button onclick="calculateEllipseArea()" class="btn btn-primary w-full">calculate</button>
                       </div>
                     </div>
                   </div>
@@ -136,5 +136,7 @@
     <script src="scripts/ractangle-calculate.js"></script>
     <script src="scripts/parallerogram-calculate.js"></script>
     <script src="scripts/rhombus-calculate.js"></script>
+    <script src="scripts/pentagon-calculate.js"></script>
+    <script src="scripts/ellipse-calculate.js"></script>
 </body>
 </html>
