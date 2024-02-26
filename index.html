@@ -71,14 +71,57 @@
                       </div>
                     </div>
                   </div>
-                <!-- triangle card 4-->
+                <!-- rhombus card 4-->
                 <div class="card  bg-base-100 shadow-xl">
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                    <figure><img src="images/rhombus.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title">Shoes!</h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+                      <h2 class="card-title">rhombus</h2>
+                      <p>Area(A)= 0.5 x d<Sub>1</Sub> x d<sub>2</sub></p>
+                      <div>
+                        <input id="rhombus-width" class="w-20" type="text" placeholder="d1"><span class="mr-2 ml-2">cm</span>
+                        <input id="rhombus-height" class="w-20" type="text" placeholder="d2"><span class="ml-2">cm</span>
+                      </div>
+                      <div>
+                        <p>total area : <span id="rhombus-area-span"></span><span>cm<sup>2</sup></span></p>
+                      </div>
+                      <div class="card-actions ">
+                        <button onclick="calculateRhombusArea()" class="btn btn-primary w-full">calculate</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- pentagon card 5 -->
+                <div class="card  bg-base-100 shadow-xl">
+                    <figure><img src="images/pentagon.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">pentagon</h2>
+                      <p>Area(A)= 0.5 x p x b</p>
+                      <div>
+                        <input id="rhombus-width" class="w-20" type="text" placeholder="d1"><span class="mr-2 ml-2">cm</span>
+                        <input id="rhombus-height" class="w-20" type="text" placeholder="d2"><span class="ml-2">cm</span>
+                      </div>
+                      <div>
+                        <p>total area : <span id="rhombus-area-span"></span><span>cm<sup>2</sup></span></p>
+                      </div>
+                      <div class="card-actions ">
+                        <button onclick="calculateRhombusArea()" class="btn btn-primary w-full">calculate</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- ellipse card 6 -->
+                <div class="card  bg-base-100 shadow-xl">
+                    <figure><img src="images/rhombus.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">rhombus</h2>
+                      <p>Area(A)= 0.5 x d<Sub>1</Sub> x d<sub>2</sub></p>
+                      <div>
+                        <input id="rhombus-width" class="w-20" type="text" placeholder="d1"><span class="mr-2 ml-2">cm</span>
+                        <input id="rhombus-height" class="w-20" type="text" placeholder="d2"><span class="ml-2">cm</span>
+                      </div>
+                      <div>
+                        <p>total area : <span id="rhombus-area-span"></span><span>cm<sup>2</sup></span></p>
+                      </div>
+                      <div class="card-actions ">
+                        <button onclick="calculateRhombusArea()" class="btn btn-primary w-full">calculate</button>
                       </div>
                     </div>
                   </div>
@@ -92,5 +135,6 @@
     <script src="scripts/triangle-calculate.js"></script>
     <script src="scripts/ractangle-calculate.js"></script>
     <script src="scripts/parallerogram-calculate.js"></script>
+    <script src="scripts/rhombus-calculate.js"></script>
 </body>
 </html>
